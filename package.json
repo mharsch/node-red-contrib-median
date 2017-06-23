@@ -1,0 +1,23 @@
+{
+    "name"          : "node-red-contrib-median",
+    "version"       : "0.0.1",
+    "description"   : "A Node-RED node that returns the median value from the last n incoming values.",
+    "dependencies"  : {
+    },
+    "repository" : {
+        "type":"git",
+        "url":"https://github.com/mharsch/node-red-contrib-median"
+    },
+    "license": "Apache-2.0",
+    "keywords": [ "node-red", "median", "moving average", "smooth", "average" ],
+    "node-red"      : {
+        "nodes"     : {
+            "median": "median.js"
+        }
+    },
+    "author": {
+        "name": "Mike Harsch",
+        "email": "mike@harschsystems.com",
+        "url": "http://blog.harschsystems.com"
+    }
+}
